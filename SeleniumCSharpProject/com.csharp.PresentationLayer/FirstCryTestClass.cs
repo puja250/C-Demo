@@ -20,6 +20,8 @@ namespace SeleniumCSharpProject.com.csharp.PresentationLayer
         [Test]
         public void FirstCryAssignment1()
         {
+            //Assignment1
+            Console.WriteLine("Start");
             objFirstCryPage.CloseAdvPopUp();
             objFirstCryPage.MouseHoverOnUpperMenu();
             objFirstCryPage.ClickOnBuyGiftCertificate();
